@@ -1,0 +1,16 @@
+.TrendingSearch{
+    justify-content: start;
+}
+
+.TrendingSearch ul{
+    list-style: none;
+}
+
+.TrendingSearch li:hover{
+    cursor: pointer;
+}
+
+
+
+
+

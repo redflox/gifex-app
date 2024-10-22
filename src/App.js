@@ -5,6 +5,7 @@ import SearchResults from './pages/SearchResults'
 import Detail from './pages/Detail'
 import { GifsContextProvider } from './context/GifsContext';
 import NavBar from 'components/NavBar';
+import Login from 'pages/Login';
 
 const routesNav = [
   // {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" component={Home} />
           <Route path="/search/:query/:rating?" component={SearchResults} />
           <Route path="/gif/:id" component={Detail} />
+          <Route path="/login" component={Login} />
           <Route path="/404" component={() => <h1>404 NOT FOUND!</h1>} />
         </GifsContextProvider>
       </div>
